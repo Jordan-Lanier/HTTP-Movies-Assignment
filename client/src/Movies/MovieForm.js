@@ -85,6 +85,7 @@ const ItemForm = props => {
         />
         <div className="baseline" />
 
+
         <button className="md-button form-button">Add New Item</button>
       </form>
     </div>

@@ -24,6 +24,7 @@ const MoviePutUpdate = (props, match, history)=>{
         setMovieEdit({ ...movieEdit,
              [event.target.name]: event.target.value});
     }
+    
     const handleSubmit = event =>{
         event.preventDefault();
         axios
